@@ -30,5 +30,10 @@ None yet.
 
 == Changelog ==
 
+= 0.2.0 =
+Major rewrite of codebase to follow the conventions outlined by WordPress-Widget-Boilerplate.
+
+https://github.com/tommcfarlin/WordPress-Widget-Boilerplate
+
 = 0.1.0 =
 * Initial commit
