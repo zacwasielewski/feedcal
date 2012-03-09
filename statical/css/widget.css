@@ -1,0 +1,19 @@
+table.statical-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.statical-calendar caption {
+    text-align: center;
+}
+
+table.statical-calendar td {
+    border: 1px solid rgb(223,223,223);
+    padding: 0;
+    line-height:2.4em;
+    text-align: center;
+}
+
+table.statical-calendar td.statical-highlight {
+    font-weight: bold;
+}

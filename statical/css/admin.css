@@ -1,0 +1,23 @@
+table.statical-admin-days{
+    border-collapse:collapse;
+    width:100%;
+}
+
+table.statical-admin-days td{
+    padding:0;
+    text-align:center;
+    border:1px solid rgb(223,223,223);
+}
+
+table.statical-admin-days td label{
+    text-align:center;
+    display:block;
+    padding:.7em 0 .5em 0;
+}
+
+table.statical-admin-days td input{
+    
+    display:block;
+    margin:0 auto;
+    
+}
