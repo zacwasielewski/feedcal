@@ -11,7 +11,26 @@ Very simple static calendar widget for WordPress. Year, month, and specific days
 
 StatiCal is a very simple static calendar widget for WordPress. It allows the user to specify a title, year, and month calendar to display. Optionally, one or more days may be highlighted.
 
-The calendar uses the #wp-calendar styles, and may be styled with standard CSS.
+Styling guide:
+
+<table class="statical-calendar">
+    <caption>Month Year</caption>
+    <tbody>
+        <tr class="statical-row">
+            <td class="statical-day-np">
+                <!-- Empty cell -->
+            </td>
+            <td class="statical-day">
+                <!-- Standard cell -->
+                <div class="day-number"></div>
+            </td>
+            <td class="statical-day statical-highlight">
+                <!-- Highlighted cell -->
+                <div class="day-number"></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 == Installation ==
 

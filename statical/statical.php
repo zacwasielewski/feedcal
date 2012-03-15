@@ -218,8 +218,9 @@ class StatiCal extends WP_Widget {
     
         /* draw table */
         $calendar = '';
-        $calendar .= '<table cellpadding="0" cellspacing="0" class="statical-calendar">';
+        $calendar .= '<table class="statical-calendar">';
         $calendar .= '<caption>'. date('F Y',mktime(0,0,0,$month,1,$year)) .'</caption>';
+        $calendar .= '<tbody>';
         
         $show_headings = false;
         
@@ -283,6 +284,7 @@ class StatiCal extends WP_Widget {
         $calendar.= '</tr>';
         
         /* end the table */
+        $calendar.= '</tbody>';
         $calendar.= '</table>';
         
         /* all done, return result */
