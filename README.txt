@@ -1,30 +1,30 @@
-=== StatiCal ===
+=== FeedCal ===
 Contributors: zacwaz
-Donate link: http://wasielewski.org/projects/statical
+Donate link: http://wasielewski.org/projects/feedcal
 Tags: calendar
-Requires at least: 3.3.1
-Tested up to: 3.3.1
+Requires at least: 3.9.1
+Tested up to: 3.9.1
 
-Very simple static calendar widget for WordPress. Year, month, and specific days may be highlighted.
+WordPress plugin to display a month-view calendar with highlighted days from an RSS (or equivalent) feed.
 
 == Description ==
 
-StatiCal is a very simple static calendar widget for WordPress. It allows the user to specify a title, year, and month calendar to display. Optionally, one or more days may be highlighted.
+FeedCal is a very simple calendar widget for WordPress. Optionally, one or more days may be highlighted by supplying the URL of an RSS or Atom feed.
 
 Styling guide:
 
-<table class="statical-calendar">
+<table class=“feedcal-calendar">
     <caption>Month Year</caption>
     <tbody>
-        <tr class="statical-row">
-            <td class="statical-day-np">
+        <tr class="feedcal-row">
+            <td class="feedcal-day-np">
                 <!-- Empty cell -->
             </td>
             <td class="statical-day">
                 <!-- Standard cell -->
                 <div class="day-number"></div>
             </td>
-            <td class="statical-day statical-highlight">
+            <td class="feedcal-day feedcal-highlight">
                 <!-- Highlighted cell -->
                 <div class="day-number"></div>
             </td>
@@ -34,7 +34,7 @@ Styling guide:
 
 == Installation ==
 
-1. Upload the `statical/` directory to the `/wp-content/plugins/` directory
+1. Upload the `feedcal/` directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Drag the widget to your desired location in the 'Appearance' / 'Widgets' menu in WordPress
 
@@ -48,11 +48,3 @@ None yet.
 2. Site sidebar display
 
 == Changelog ==
-
-= 0.2.0 =
-Major rewrite of codebase to follow the conventions outlined by WordPress-Widget-Boilerplate.
-
-https://github.com/tommcfarlin/WordPress-Widget-Boilerplate
-
-= 0.1.0 =
-* Initial commit
